@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "roland_a.mc_mods.no_boat_cheesing.core.mixin",
+  "compatibilityLevel": "JAVA_${java_version}",
+  "mixins": [
+    "EntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+	]
+}
